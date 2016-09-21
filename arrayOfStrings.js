@@ -23,9 +23,6 @@ let historySearch = (current, history) => {
   newHistory = history;
   newHistory.shift();                                        //remove first element from history and add new element to the end.
   newHistory.push(newStrings);
-
-  console.log(newStrings);
-  console.log(newHistory);
   
   results.newStrings = newStrings;                           //add the two values to a single object so that it can be returned by the function.
   results.newHistory = newHistory;
